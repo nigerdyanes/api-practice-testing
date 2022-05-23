@@ -1,0 +1,30 @@
+{
+  "name": "api-testing-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index",
+    "test": "jest",
+    "test:watch":"jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "mongodb": "^4.6.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.3.1",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16"
+  }
+}
